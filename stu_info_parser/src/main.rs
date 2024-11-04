@@ -1,16 +1,23 @@
-use std::io::{self, Write};
+use input::read_input;
+use crate::student_manager::StudentManager;
+use crate::model::{Student, read_from_csv};
+
+mod model;
+mod input;
+mod student_manager;
+
 
 fn main() {
-    // 先把空的字符串放到这里
-    let mut input = String::new();
-    
-    loop {
-        print!("> ");
-        // 确保它能够直接刷新
-        io::stdout().flush().unwrap();
+    let file_path = "info.csv";
 
-        io::stdin()
-            .read_line(&mut input)
-            .expect("Failed to read line");
+    match read_from_csv(file_path) {
+        Ok(students) => {
+            for student in students {
+                println!("{:?}", student);
+            }
+        }
+        Err(e) => {
+            eprintln!("Error reading CSV:{}", e);
+        }
     }
 }

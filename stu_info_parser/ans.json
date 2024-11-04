@@ -1,0 +1,212 @@
+[
+  {
+    "id": 101,
+    "name": "Alice",
+    "age": 18,
+    "gender": "F",
+    "grade": 89
+  },
+  {
+    "id": 102,
+    "name": "Bob",
+    "age": 19,
+    "gender": "M",
+    "grade": 75
+  },
+  {
+    "id": 103,
+    "name": "Charlie",
+    "age": 18,
+    "gender": "M",
+    "grade": 92
+  },
+  {
+    "id": 104,
+    "name": "Daisy",
+    "age": 20,
+    "gender": "F",
+    "grade": 84
+  },
+  {
+    "id": 105,
+    "name": "Edward",
+    "age": 21,
+    "gender": "M",
+    "grade": 67
+  },
+  {
+    "id": 106,
+    "name": "Fiona",
+    "age": 18,
+    "gender": "F",
+    "grade": 91
+  },
+  {
+    "id": 107,
+    "name": "George",
+    "age": 19,
+    "gender": "M",
+    "grade": 73
+  },
+  {
+    "id": 108,
+    "name": "Helen",
+    "age": 22,
+    "gender": "F",
+    "grade": 85
+  },
+  {
+    "id": 109,
+    "name": "Ian",
+    "age": 20,
+    "gender": "M",
+    "grade": 78
+  },
+  {
+    "id": 110,
+    "name": "Jane",
+    "age": 18,
+    "gender": "F",
+    "grade": 90
+  },
+  {
+    "id": 111,
+    "name": "Kate",
+    "age": 19,
+    "gender": "F",
+    "grade": 88
+  },
+  {
+    "id": 112,
+    "name": "Luke",
+    "age": 21,
+    "gender": "M",
+    "grade": 64
+  },
+  {
+    "id": 113,
+    "name": "Marie",
+    "age": 20,
+    "gender": "F",
+    "grade": 79
+  },
+  {
+    "id": 114,
+    "name": "Nathan",
+    "age": 19,
+    "gender": "M",
+    "grade": 85
+  },
+  {
+    "id": 115,
+    "name": "Olivia",
+    "age": 18,
+    "gender": "F",
+    "grade": 93
+  },
+  {
+    "id": 116,
+    "name": "Peter",
+    "age": 21,
+    "gender": "M",
+    "grade": 82
+  },
+  {
+    "id": 117,
+    "name": "Quinn",
+    "age": 22,
+    "gender": "F",
+    "grade": 76
+  },
+  {
+    "id": 118,
+    "name": "Rachel",
+    "age": 20,
+    "gender": "F",
+    "grade": 89
+  },
+  {
+    "id": 119,
+    "name": "Sam",
+    "age": 18,
+    "gender": "M",
+    "grade": 72
+  },
+  {
+    "id": 120,
+    "name": "Tina",
+    "age": 21,
+    "gender": "F",
+    "grade": 95
+  },
+  {
+    "id": 121,
+    "name": "Uma",
+    "age": 20,
+    "gender": "F",
+    "grade": 87
+  },
+  {
+    "id": 122,
+    "name": "Victor",
+    "age": 19,
+    "gender": "M",
+    "grade": 65
+  },
+  {
+    "id": 123,
+    "name": "Wendy",
+    "age": 22,
+    "gender": "F",
+    "grade": 80
+  },
+  {
+    "id": 124,
+    "name": "Xander",
+    "age": 18,
+    "gender": "M",
+    "grade": 77
+  },
+  {
+    "id": 125,
+    "name": "Yara",
+    "age": 19,
+    "gender": "F",
+    "grade": 94
+  },
+  {
+    "id": 126,
+    "name": "Zane",
+    "age": 20,
+    "gender": "M",
+    "grade": 68
+  },
+  {
+    "id": 127,
+    "name": "Amber",
+    "age": 21,
+    "gender": "F",
+    "grade": 86
+  },
+  {
+    "id": 128,
+    "name": "Brian",
+    "age": 18,
+    "gender": "M",
+    "grade": 74
+  },
+  {
+    "id": 129,
+    "name": "Clara",
+    "age": 20,
+    "gender": "F",
+    "grade": 88
+  },
+  {
+    "id": 130,
+    "name": "David",
+    "age": 19,
+    "gender": "M",
+    "grade": 81
+  }
+]

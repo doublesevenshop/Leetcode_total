@@ -1,23 +1,27 @@
 use input::read_input;
 use crate::student_manager::StudentManager;
-use crate::model::{Student, read_from_csv};
-
+use crate::commands::*;
 mod model;
 mod input;
+mod commands;
 mod student_manager;
 
 
 fn main() {
-    let file_path = "info.csv";
+    let mut manager = StudentManager::new(Vec::new());
 
-    match read_from_csv(file_path) {
-        Ok(students) => {
-            for student in students {
-                println!("{:?}", student);
-            }
+    // 首先实现一个解析
+    loop {
+        let command = input::read_input();
+        if command.trim() == "exit" {
+            println!("感谢您的使用！");
+            break;
         }
-        Err(e) => {
-            eprintln!("Error reading CSV:{}", e);
+
+        match execute_command(command, &mut manager) {
+            Ok(message) => println!("{}", message),
+            Err(e) => eprintln!("Error:{}", e),
         }
     }
+
 }

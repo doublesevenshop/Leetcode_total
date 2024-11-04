@@ -1,6 +1,6 @@
-use input::read_input;
 use crate::student_manager::StudentManager;
 use crate::commands::*;
+
 mod model;
 mod input;
 mod commands;

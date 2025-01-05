@@ -19,3 +19,4 @@ pub mod p3298;
 pub mod p713;
 pub mod p3258;
 pub mod p2302;
+pub mod p3306;

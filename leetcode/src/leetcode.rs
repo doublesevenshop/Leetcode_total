@@ -21,3 +21,5 @@ pub mod p3258;
 pub mod p2302;
 pub mod p3306;
 pub mod p992;
+pub mod p1438;
+pub mod p825;

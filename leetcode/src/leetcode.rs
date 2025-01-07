@@ -25,3 +25,4 @@ pub mod p1438;
 pub mod p825;
 pub mod p2401;
 pub mod p1156;
+pub mod p424;
